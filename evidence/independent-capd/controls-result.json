@@ -1,0 +1,32 @@
+{
+  "started_utc": "2026-10-25T18:13:54.804760+00:00",
+  "compile_argv": [
+    "/opt/homebrew/bin/g++-16",
+    "-std=c++17",
+    "-O2",
+    "-frounding-math",
+    "-D__USE_NATIVE__",
+    "-D__HAVE_MPFR__",
+    "-I<workspace>/research/.worktrees/chem/studies/R015/speedup/.cache/CAPD/capdDynSys/include",
+    "-I<workspace>/research/.worktrees/chem/studies/R015/speedup/.cache/CAPD/capdAlg/include",
+    "-I<workspace>/research/.worktrees/chem/studies/R015/speedup/.cache/CAPD/capdAux/include",
+    "-I<workspace>/research/.worktrees/chem/studies/R015/speedup/.cache/CAPD/capdExt/include",
+    "-I/opt/homebrew/include",
+    "<workspace>/research/.worktrees/chem/studies/R029/independent-capd/return_check.cpp",
+    "-L<workspace>/research/.worktrees/chem/studies/R029/independent-capd/.cache/build",
+    "-L/opt/homebrew/lib",
+    "-lcapd",
+    "-lmpfr",
+    "-lgmp",
+    "-o",
+    "<workspace>/research/.worktrees/chem/studies/R029/independent-capd/.cache/return_check"
+  ],
+  "compile_returncode": 0,
+  "compile_stdout": "",
+  "compile_stderr": "",
+  "source_sha256": "1cafbf1b8dad5580a5bd9d45c49247ef8d8dcaba8b97f2e23eae342e30fc411f",
+  "control_returncode": 0,
+  "control_stdout": "CONTROL PASS period=[6.2831853071795864769252867665590057683,6.2831853071795864769252867665590057684] moves=34 up=4 down=1\n",
+  "control_stderr": "",
+  "elapsed_seconds": 4.031718042000648
+}

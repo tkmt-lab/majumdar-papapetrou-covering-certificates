@@ -1,0 +1,100 @@
+{
+  "verdict": "ALL_FIVE_BANDS_PROVED",
+  "interpretation": "binary64 JSON numbers are parsed as the same exact binary endpoints; tree check is independent of solver traversal, ODE mathematics still trusted as documented",
+  "exact_tree_nodes_checked": 1521,
+  "adjacency_original": [
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0
+    ]
+  ],
+  "adjacency_five_bands": [
+    [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  ],
+  "charpoly_original_ascending": [
+    0,
+    -1,
+    -1,
+    1
+  ],
+  "charpoly_bands_ascending": [
+    0,
+    0,
+    0,
+    -1,
+    -1,
+    1
+  ],
+  "rho": "(1+sqrt(5))/2",
+  "log_rho_rigorous_decimal_interval": [
+    "0.481211825059603",
+    "0.481211825059604"
+  ],
+  "entropy_conclusion_authorized": true,
+  "log_series_terms": 30,
+  "wall_seconds": 0.03253216699886252,
+  "cpu_seconds": 0.057751,
+  "peak_rss_bytes": 29638656,
+  "coverage_sha256": "b7de0a0d3204bd218e81619a945b5ca4303cbfc7b75c899201ac5b30dcdf2b0b",
+  "checker_sha256": "ca4cedc941c279cfbde07008fd2db232d5f318dce9fb08aca231aba01189f48a"
+}
+{"edge": 0, "source": "O", "target": "O", "condition": "C2L", "complete": true, "leaf_count": 16, "unresolved_count": 0, "summary_line": 49, "tree_nodes": 31, "coordinate": "U", "image_hull": [-14.553620988734153, -12.74164206643865], "tau_hull": [15.2880859375, 15.291748046875], "rmin_lower": 1.5848611879846863, "R2_upper": 6.738015648522856, "vz_lower": 0.9999980604682782}
+{"edge": 0, "source": "O", "target": "O", "condition": "C2R", "complete": true, "leaf_count": 16, "unresolved_count": 0, "summary_line": 98, "tree_nodes": 31, "coordinate": "U", "image_hull": [12.422429062135738, 14.223432560605554], "tau_hull": [15.292236328125, 15.2958984375], "rmin_lower": 1.5851736227208582, "R2_upper": 6.738773807786335, "vz_lower": 0.999998141305338}
+{"edge": 0, "source": "O", "target": "O", "condition": "C1", "complete": true, "leaf_count": 64, "unresolved_count": 0, "summary_line": 971, "tree_nodes": 127, "coordinate": "S", "image_hull": [-0.022707653684264466, 0.02162702741819974], "tau_hull": [15.2880859375, 15.2958984375], "rmin_lower": 1.584811241381546, "R2_upper": 6.738813523681616, "vz_lower": 0.9999872225679093}
+{"edge": 1, "source": "O", "target": "A", "condition": "C2L", "complete": true, "leaf_count": 16, "unresolved_count": 0, "summary_line": 147, "tree_nodes": 31, "coordinate": "U", "image_hull": [-436.32525485010285, -380.9501053760717], "tau_hull": [15.275146484375, 15.27880859375], "rmin_lower": 1.5817813728130694, "R2_upper": 6.737114266347007, "vz_lower": 0.9999870568443366}
+{"edge": 1, "source": "O", "target": "A", "condition": "C2R", "complete": true, "leaf_count": 16, "unresolved_count": 0, "summary_line": 196, "tree_nodes": 31, "coordinate": "U", "image_hull": [371.0018443689272, 426.00509000055484], "tau_hull": [15.279296875, 15.28271484375], "rmin_lower": 1.5827575461216643, "R2_upper": 6.737399853074922, "vz_lower": 0.99999227727311}
+{"edge": 1, "source": "O", "target": "A", "condition": "C1", "complete": true, "leaf_count": 64, "unresolved_count": 0, "summary_line": 1164, "tree_nodes": 127, "coordinate": "S", "image_hull": [0.5515829913024775, 0.5979791714660588], "tau_hull": [15.2744140625, 15.283203125], "rmin_lower": 1.581730770207143, "R2_upper": 6.737400143080621, "vz_lower": 0.9999739180906858}
+{"edge": 2, "source": "A", "target": "B", "condition": "C2L", "complete": true, "leaf_count": 64, "unresolved_count": 0, "summary_line": 389, "tree_nodes": 127, "coordinate": "U", "image_hull": [-107.22271704415198, -48.659645235845865], "tau_hull": [19.076171875, 19.087890625], "rmin_lower": 0.610435211833331, "R2_upper": 6.550606917359374, "vz_lower": 0.9983327650373386}
+{"edge": 2, "source": "A", "target": "B", "condition": "C2R", "complete": true, "leaf_count": 64, "unresolved_count": 0, "summary_line": 582, "tree_nodes": 127, "coordinate": "U", "image_hull": [6.818816760451435, 65.4177633742718], "tau_hull": [19.091796875, 19.103515625], "rmin_lower": 0.6105534827319818, "R2_upper": 6.550615639558554, "vz_lower": 0.9979894133429029}
+{"edge": 2, "source": "A", "target": "B", "condition": "C1", "complete": true, "leaf_count": 256, "unresolved_count": 0, "summary_line": 2319, "tree_nodes": 511, "coordinate": "S", "image_hull": [-0.4996289190089726, 0.49533012042826724], "tau_hull": [19.0703125, 19.109375], "rmin_lower": 0.6104313024400165, "R2_upper": 6.550615641622226, "vz_lower": 0.9972401296169375}
+{"edge": 3, "source": "B", "target": "O", "condition": "C2L", "complete": true, "leaf_count": 16, "unresolved_count": 0, "summary_line": 631, "tree_nodes": 31, "coordinate": "U", "image_hull": [-19.689575906719128, -11.540004793283794], "tau_hull": [15.099609375, 15.107421875], "rmin_lower": 1.539902319468866, "R2_upper": 6.719294490287965, "vz_lower": 0.9999878188961648}
+{"edge": 3, "source": "B", "target": "O", "condition": "C2R", "complete": true, "leaf_count": 16, "unresolved_count": 0, "summary_line": 680, "tree_nodes": 31, "coordinate": "U", "image_hull": [10.014129725279176, 18.20678498963975], "tau_hull": [15.1044921875, 15.1123046875], "rmin_lower": 1.5399558265966102, "R2_upper": 6.723838189861082, "vz_lower": 0.999987476210171}
+{"edge": 3, "source": "B", "target": "O", "condition": "C1", "complete": true, "leaf_count": 64, "unresolved_count": 0, "summary_line": 1357, "tree_nodes": 127, "coordinate": "S", "image_hull": [-0.6600498815281448, -0.5021066619534854], "tau_hull": [15.099609375, 15.11328125], "rmin_lower": 1.5399021960610848, "R2_upper": 6.723923647576983, "vz_lower": 0.9999589948382407}
+{"edge": 4, "source": "B", "target": "A", "condition": "C2L", "complete": true, "leaf_count": 16, "unresolved_count": 0, "summary_line": 729, "tree_nodes": 31, "coordinate": "U", "image_hull": [-588.5924248826776, -343.2917360690928], "tau_hull": [15.0869140625, 15.0947265625], "rmin_lower": 1.5397493200854968, "R2_upper": 6.706295117992093, "vz_lower": 0.9999753541479216}
+{"edge": 4, "source": "B", "target": "A", "condition": "C2R", "complete": true, "leaf_count": 16, "unresolved_count": 0, "summary_line": 778, "tree_nodes": 31, "coordinate": "U", "image_hull": [302.0819850234805, 546.5431305538276], "tau_hull": [15.0908203125, 15.0986328125], "rmin_lower": 1.539802828477709, "R2_upper": 6.7108425660155575, "vz_lower": 0.9999810180941506}
+{"edge": 4, "source": "B", "target": "A", "condition": "C1", "complete": true, "leaf_count": 64, "unresolved_count": 0, "summary_line": 1550, "tree_nodes": 127, "coordinate": "S", "image_hull": [-0.07943708005853665, 0.07628868091052858], "tau_hull": [15.0859375, 15.099609375], "rmin_lower": 1.5397491966590506, "R2_upper": 6.710928144682703, "vz_lower": 0.9999432417391821}

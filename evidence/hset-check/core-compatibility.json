@@ -1,0 +1,7 @@
+{
+  "tested_source": "solver-v5.cpp",
+  "coverage_source": "solver.cpp",
+  "same_numerical_core": true,
+  "only_core_change": "added guard for exact binary64 integer conversion of fixed decimal inputs",
+  "normalized_core_sha256": "8ba4433dbd7daee9bde6e7fae2234391488702812abbe73ebc4702a15a33f81b"
+}

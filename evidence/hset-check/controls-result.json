@@ -1,0 +1,143 @@
+{
+  "checks": [
+    {
+      "control": "add",
+      "passed": true,
+      "k": null,
+      "source": null
+    },
+    {
+      "control": "subtract",
+      "passed": true,
+      "k": null,
+      "source": null
+    },
+    {
+      "control": "multiply",
+      "passed": true,
+      "k": null,
+      "source": null
+    },
+    {
+      "control": "divide",
+      "passed": true,
+      "k": null,
+      "source": null
+    },
+    {
+      "control": "sqrt2",
+      "passed": true,
+      "k": null,
+      "source": null
+    },
+    {
+      "control": "sqrt_interval",
+      "passed": true,
+      "k": null,
+      "source": null
+    },
+    {
+      "control": "equilibrium_variational_taylor",
+      "passed": true,
+      "k": 0,
+      "source": null
+    },
+    {
+      "control": "equilibrium_variational_taylor",
+      "passed": true,
+      "k": 1,
+      "source": null
+    },
+    {
+      "control": "equilibrium_variational_taylor",
+      "passed": true,
+      "k": 2,
+      "source": null
+    },
+    {
+      "control": "equilibrium_variational_taylor",
+      "passed": true,
+      "k": 3,
+      "source": null
+    },
+    {
+      "control": "equilibrium_variational_taylor",
+      "passed": true,
+      "k": 4,
+      "source": null
+    },
+    {
+      "control": "equilibrium_variational_taylor",
+      "passed": true,
+      "k": 5,
+      "source": null
+    },
+    {
+      "control": "equilibrium_variational_taylor",
+      "passed": true,
+      "k": 6,
+      "source": null
+    },
+    {
+      "control": "equilibrium_variational_taylor",
+      "passed": true,
+      "k": 7,
+      "source": null
+    },
+    {
+      "control": "equilibrium_variational_taylor",
+      "passed": true,
+      "k": 8,
+      "source": null
+    },
+    {
+      "control": "equilibrium_variational_taylor",
+      "passed": true,
+      "k": 9,
+      "source": null
+    },
+    {
+      "control": "equilibrium_variational_taylor",
+      "passed": true,
+      "k": 10,
+      "source": null
+    },
+    {
+      "control": "exact_equilibrium_step",
+      "passed": true,
+      "k": null,
+      "source": null
+    },
+    {
+      "control": "inverse_upper_triangular",
+      "passed": true,
+      "k": null,
+      "source": null
+    },
+    {
+      "control": "short_step_crosscheck",
+      "passed": true,
+      "k": null,
+      "source": "O"
+    },
+    {
+      "control": "short_step_crosscheck",
+      "passed": true,
+      "k": null,
+      "source": "A"
+    },
+    {
+      "control": "short_step_crosscheck",
+      "passed": true,
+      "k": null,
+      "source": "B"
+    }
+  ],
+  "exact_fraction_checks": 214,
+  "same_source_strip_separation": true,
+  "short_step_comparison_scope": "intersection of two independently implemented interval enclosures, not a full solver proof",
+  "wall_seconds": 0.0031187080003292067,
+  "cpu_seconds": 0.029498999999999997,
+  "peak_rss_bytes": 20561920,
+  "source_sha256": "42b2d5bd6a183512528b8dd471abe31812b5d05c48be2d0af04e303ddfea1b70"
+}

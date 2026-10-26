@@ -1,0 +1,86 @@
+{
+  "checked_utc": "2026-10-25T21:50:04.047205+00:00",
+  "source_sha256": "1cafbf1b8dad5580a5bd9d45c49247ef8d8dcaba8b97f2e23eae342e30fc411f",
+  "inputs": [
+    {
+      "file": "refined-pilot-result.json",
+      "sha256": "6d82c10190bc322e5aa135cbbdfa366a192a06a5cc24b1ab58a2917b162ba083",
+      "finished_utc": "2026-10-25T18:17:24.756646+00:00"
+    },
+    {
+      "file": "refinement-feasibility-result.json",
+      "sha256": "0ad363517018913067ae542ca98caddceee0dd8893d0ee05ac3ec3a42f318920",
+      "finished_utc": "2026-10-25T18:22:11.688137+00:00"
+    },
+    {
+      "file": "coverage-result.json",
+      "sha256": "4e76e73db78fb32766c5ebf34cf875be88e583e2f10824a2bd29ef99f18a4189",
+      "finished_utc": "2026-10-25T19:09:51.746348+00:00"
+    },
+    {
+      "file": "ab-extension/pilot-result.json",
+      "sha256": "171cf8269b74dcd76650e45af9e470cf7de3897ac1a38a00abd4467f7e94c6d5",
+      "finished_utc": "2026-10-25T19:24:44.558561+00:00"
+    },
+    {
+      "file": "ab-extension/refine-pilot-result.json",
+      "sha256": "fea92b99d2cf9aa21a463346573cc2b9e1f40e37d94f34d9af71cfea2128ada9",
+      "finished_utc": "2026-10-25T19:28:32.407149+00:00"
+    },
+    {
+      "file": "ab-extension/full-result.json",
+      "sha256": "e27e8634ed56408bd53c90e22ce0b20d1ff83585421c02baebb1a31648238e50",
+      "finished_utc": "2026-10-25T21:40:31.272129+00:00"
+    }
+  ],
+  "method": "exact rational union of finite closed rectangles/segments in normalized strip parameters; area1 iff full coverage; only rc0 CELL PASS accepted",
+  "edges": [
+    {
+      "edge": "O->O",
+      "C1": "PASS",
+      "C2": "PASS",
+      "covered_parameter_area_C1": "1",
+      "covered_left_fraction": "1",
+      "covered_right_fraction": "1",
+      "contrary_records": []
+    },
+    {
+      "edge": "O->A",
+      "C1": "PASS",
+      "C2": "PASS",
+      "covered_parameter_area_C1": "1",
+      "covered_left_fraction": "1",
+      "covered_right_fraction": "1",
+      "contrary_records": []
+    },
+    {
+      "edge": "A->B",
+      "C1": "PASS",
+      "C2": "PASS",
+      "covered_parameter_area_C1": "1",
+      "covered_left_fraction": "1",
+      "covered_right_fraction": "1",
+      "contrary_records": []
+    },
+    {
+      "edge": "B->O",
+      "C1": "PASS",
+      "C2": "PASS",
+      "covered_parameter_area_C1": "1",
+      "covered_left_fraction": "1",
+      "covered_right_fraction": "1",
+      "contrary_records": []
+    },
+    {
+      "edge": "B->A",
+      "C1": "PASS",
+      "C2": "PASS",
+      "covered_parameter_area_C1": "1",
+      "covered_left_fraction": "1",
+      "covered_right_fraction": "1",
+      "contrary_records": []
+    }
+  ],
+  "all_five_covering_conditions": true,
+  "entropy_bound_status": "CONFIRMED_COVERING_PREMISES"
+}

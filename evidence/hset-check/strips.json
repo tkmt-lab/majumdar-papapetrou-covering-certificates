@@ -1,0 +1,76 @@
+{
+  "status": "CANDIDATES_ONLY_NOT_YET_COVERINGS",
+  "source": "own prepare-locate.jsonl",
+  "strips": [
+    {
+      "selected_strip": true,
+      "source": "O",
+      "target": "O",
+      "u": [
+        -0.0625,
+        0.0625
+      ],
+      "s": [
+        -1,
+        1
+      ],
+      "method": "own validated point bisection; center on 1/512 grid; halfwidth 1/16; full-strip C1/C2 still unproved"
+    },
+    {
+      "selected_strip": true,
+      "source": "O",
+      "target": "A",
+      "u": [
+        -0.45703125,
+        -0.33203125
+      ],
+      "s": [
+        -1,
+        1
+      ],
+      "method": "own validated point bisection; center on 1/512 grid; halfwidth 1/16; full-strip C1/C2 still unproved"
+    },
+    {
+      "selected_strip": true,
+      "source": "A",
+      "target": "B",
+      "u": [
+        -0.0625,
+        0.0625
+      ],
+      "s": [
+        -1,
+        1
+      ],
+      "method": "own validated point bisection; center on 1/512 grid; halfwidth 1/16; full-strip C1/C2 still unproved"
+    },
+    {
+      "selected_strip": true,
+      "source": "B",
+      "target": "O",
+      "u": [
+        0.294921875,
+        0.419921875
+      ],
+      "s": [
+        -1,
+        1
+      ],
+      "method": "own validated point bisection; center on 1/512 grid; halfwidth 1/16; full-strip C1/C2 still unproved"
+    },
+    {
+      "selected_strip": true,
+      "source": "B",
+      "target": "A",
+      "u": [
+        -0.0625,
+        0.0625
+      ],
+      "s": [
+        -1,
+        1
+      ],
+      "method": "own validated point bisection; center on 1/512 grid; halfwidth 1/16; full-strip C1/C2 still unproved"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the article and this certificate package."
+title: "A five-strip covering certificate for planar null geodesics in an equal-mass Majumdar-Papapetrou spacetime"
+version: 1.0.0
+type: software
+authors:
+  - family-names: Takimoto
+    given-names: Tatsuhiko
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+abstract: "Five explicit strip coverings and a per-return entropy lower bound, with two saved interval certificates and offline checks conditional on their validated flow enclosures. Lean level L0."
+preferred-citation:
+  type: article
+  title: "A five-strip covering certificate for planar null geodesics in an equal-mass Majumdar-Papapetrou spacetime"
+  authors:
+    - family-names: Takimoto
+      given-names: Tatsuhiko
+  version: 1.0.0
+  year: 2026

@@ -1,0 +1,105 @@
+{
+  "schema": "r029-capd-recorded-environment-v1",
+  "CAPD_commit": "37057e5899bccaa6cd5701057b7e6ea5e232ef8b",
+  "CAPD_archive_sha256": "960768c4aabfcf55799ca85f0dc2bcf449ed6e0355f46ba19dad8413c4d09024",
+  "MPFR": "4.2.2",
+  "GMP": "6.3.0",
+  "compiler": "g++-16 (Homebrew GCC 16.2.0) 16.2.0",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "machine_architecture": "arm64",
+  "CPU_model_recorded_in_original_build": false,
+  "source_of_versions": "final-artifact-manifest.json (original saved record, not current package lookup)",
+  "numerical_source_sha256": "1cafbf1b8dad5580a5bd9d45c49247ef8d8dcaba8b97f2e23eae342e30fc411f",
+  "numerical_binary_sha256": "d608024017b1a3c259b132d106bcf4ba8e9ef3752606b5e02a4ab0a587615fd4",
+  "model_header_sha256": "9ab2bf9de4907482e80264c20d14e0779e7fcb3f910b0b002742f92e5b694e22",
+  "precision_bits": 160,
+  "Taylor_order": 24,
+  "step_selection_tolerance_double": "1e-20",
+  "maximum_step": "0.2",
+  "tolerance_is_not_a_certified_global_error_bound": true,
+  "CMake_argv": [
+    "<workspace>/research/.worktrees/chem/studies/R015/speedup/.cache/build-venv/bin/cmake",
+    "-S",
+    "<workspace>/research/.worktrees/chem/studies/R015/speedup/.cache/CAPD",
+    "-B",
+    "<workspace>/research/.worktrees/chem/studies/R029/independent-capd/.cache/build",
+    "-DCMAKE_CXX_COMPILER=/opt/homebrew/bin/g++-16",
+    "-DCMAKE_C_COMPILER=/opt/homebrew/bin/gcc-16",
+    "-DCMAKE_BUILD_TYPE=Release",
+    "-DCAPD_ENABLE_MULTIPRECISION=ON",
+    "-DCAPD_INTERVAL_TYPE=NATIVE",
+    "-DCMAKE_PREFIX_PATH=/opt/homebrew",
+    "-DCMAKE_CXX_FLAGS=-I/opt/homebrew/include",
+    "-DCMAKE_EXE_LINKER_FLAGS=-L/opt/homebrew/lib"
+  ],
+  "solver_compile_link_argv": [
+    "/opt/homebrew/bin/g++-16",
+    "-std=c++17",
+    "-O2",
+    "-frounding-math",
+    "-D__USE_NATIVE__",
+    "-D__HAVE_MPFR__",
+    "-I<workspace>/research/.worktrees/chem/studies/R015/speedup/.cache/CAPD/capdDynSys/include",
+    "-I<workspace>/research/.worktrees/chem/studies/R015/speedup/.cache/CAPD/capdAlg/include",
+    "-I<workspace>/research/.worktrees/chem/studies/R015/speedup/.cache/CAPD/capdAux/include",
+    "-I<workspace>/research/.worktrees/chem/studies/R015/speedup/.cache/CAPD/capdExt/include",
+    "-I/opt/homebrew/include",
+    "<workspace>/research/.worktrees/chem/studies/R029/independent-capd/return_check.cpp",
+    "-L<workspace>/research/.worktrees/chem/studies/R029/independent-capd/.cache/build",
+    "-L/opt/homebrew/lib",
+    "-lcapd",
+    "-lmpfr",
+    "-lgmp",
+    "-o",
+    "<workspace>/research/.worktrees/chem/studies/R029/independent-capd/.cache/return_check"
+  ],
+  "library_effective_flags_file": "capd-library-flags.make",
+  "library_flags_provenance": "existing local build cache, recovered at review; no new build",
+  "build_elapsed_seconds": 110.036739707999,
+  "accepted_input_run_times": [
+    {
+      "file": "refined-pilot-result.json",
+      "started_utc": "2026-10-25T18:14:52.981625+00:00",
+      "finished_utc": "2026-10-25T18:17:24.756646+00:00",
+      "elapsed_wall_seconds": 151.77492683399942,
+      "recorded_binary_sha256": "d608024017b1a3c259b132d106bcf4ba8e9ef3752606b5e02a4ab0a587615fd4"
+    },
+    {
+      "file": "refinement-feasibility-result.json",
+      "started_utc": "2026-10-25T18:18:56.840148+00:00",
+      "finished_utc": "2026-10-25T18:22:11.688137+00:00",
+      "elapsed_wall_seconds": 194.84612545900018,
+      "recorded_binary_sha256": "d608024017b1a3c259b132d106bcf4ba8e9ef3752606b5e02a4ab0a587615fd4"
+    },
+    {
+      "file": "coverage-result.json",
+      "started_utc": "2026-10-25T18:36:54.018476+00:00",
+      "finished_utc": "2026-10-25T19:09:51.746348+00:00",
+      "elapsed_wall_seconds": 1977.723475666,
+      "recorded_binary_sha256": "d608024017b1a3c259b132d106bcf4ba8e9ef3752606b5e02a4ab0a587615fd4"
+    },
+    {
+      "file": "ab-extension/pilot-result.json",
+      "started_utc": "2026-10-25T19:21:25.892180+00:00",
+      "finished_utc": "2026-10-25T19:24:44.558561+00:00",
+      "elapsed_wall_seconds": 198.66603374999977,
+      "recorded_binary_sha256": "d608024017b1a3c259b132d106bcf4ba8e9ef3752606b5e02a4ab0a587615fd4"
+    },
+    {
+      "file": "ab-extension/refine-pilot-result.json",
+      "started_utc": "2026-10-25T19:26:30.660301+00:00",
+      "finished_utc": "2026-10-25T19:28:32.407149+00:00",
+      "elapsed_wall_seconds": 121.74668395800109,
+      "recorded_binary_sha256": "d608024017b1a3c259b132d106bcf4ba8e9ef3752606b5e02a4ab0a587615fd4"
+    },
+    {
+      "file": "ab-extension/full-result.json",
+      "started_utc": "2026-10-25T19:39:40.059233+00:00",
+      "finished_utc": "2026-10-25T21:40:31.272129+00:00",
+      "elapsed_wall_seconds": 7251.217378000001,
+      "recorded_binary_sha256": "d608024017b1a3c259b132d106bcf4ba8e9ef3752606b5e02a4ab0a587615fd4"
+    }
+  ],
+  "timing_semantics": "wall seconds per original run, includes unsuccessful adaptive ancestors; not summed CPU time and not a cross-implementation benchmark",
+  "new_ODE_integrations": 0
+}

@@ -1,0 +1,21 @@
+{
+  "CLAIMS.json": {
+    "source": "studies/R029/independent-capd/CLAIMS.json",
+    "commit": "15a879de859a",
+    "sha256": "fcbc41ec763233e8716999f2ad493a79982a7cf1d36ff5aa9874970c24b6f284",
+    "bytes": 814
+  },
+  "SPEC.input.md": {
+    "source": "studies/R029/SPEC.md",
+    "commit": "15a879de859a",
+    "sha256": "7cb91c356d69877f26f5dba1544f00812e9b5c37302b17be832d46da5c733c77",
+    "bytes": 8211
+  },
+  "DESIGN.4.1.1-4.1.2.input.md": {
+    "source": "argon-space/r029-hsets/DESIGN.md sections4.1.1 and4.1.2 only",
+    "commit": "15a879de859a",
+    "sha256": "46dedd6b454b9bf1443a207cd4c49b7e2b35dbb4243cbb4192e32cda77cf251f",
+    "bytes": 3496,
+    "diagnostic_rows_in_allowed_excerpt_are_not_used_as_certificates": true
+  }
+}

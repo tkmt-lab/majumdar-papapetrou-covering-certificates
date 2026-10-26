@@ -1,0 +1,83 @@
+{
+  "schema": "r029-capd-certificate-index-v1",
+  "scope": "accepted 2381-record certificate; no new ODE integration",
+  "M1_accepted_records": 0,
+  "numerical_source": {
+    "path": "return_check.cpp",
+    "sha256": "1cafbf1b8dad5580a5bd9d45c49247ef8d8dcaba8b97f2e23eae342e30fc411f",
+    "meaning_of_source_sha256": "hash of numerical C++ source, not the coverage checker"
+  },
+  "coverage_checker": {
+    "path": "ab-extension/check_coverage.py",
+    "sha256": "e62eed123fc363954541ba7369a9786406ff4c832951dd7d020894ac853b15c1"
+  },
+  "expected_audit": {
+    "path": "ab-extension/expected-coverage-check.json",
+    "sha256": "a1c29b9f4d3b353d837dcdbfca135e050bfc7520988711dd681e59a2a5c69364",
+    "role": "frozen expected result"
+  },
+  "generated_audit": {
+    "path": "ab-extension/coverage-check.json",
+    "role": "output of checker; semantic comparison to frozen expected result"
+  },
+  "review_auditor": {
+    "path": "audit_review_fixes.py",
+    "sha256": "6263d027af58d54cb516c4c1bf4f4b3d05621155f26db5d96ad92bc1b0b119b0"
+  },
+  "row_and_margin_provenance": {
+    "path": "review-audit.json",
+    "sha256": "26e5a277c7a4f3eabed4174805c6724b75251f31f29708f1a873cb9af01c9852"
+  },
+  "original_margin_summary": {
+    "path": "ab-extension/proof-summary.json",
+    "sha256": "ec87c381f4cd67b71f3b79b84dcae26a2292295f859cdf0dd2dd78eb60affc7f"
+  },
+  "environment": {
+    "path": "environment-record.json",
+    "sha256": "400b2e48d47f1dc34a6e94ee05c0a790396495e008f4c53eb59171b4cef95dd7"
+  },
+  "English_method": {
+    "path": "METHOD.en.md",
+    "sha256": "fa521cccb000fbb2547e398453d9db0331b7f4c4ca425e95cb650943a0c60292"
+  },
+  "frozen_inputs": [
+    {
+      "file": "refined-pilot-result.json",
+      "sha256": "6d82c10190bc322e5aa135cbbdfa366a192a06a5cc24b1ab58a2917b162ba083",
+      "finished_utc": "2026-10-25T18:17:24.756646+00:00",
+      "packet_relative_path": "refined-pilot-result.json"
+    },
+    {
+      "file": "refinement-feasibility-result.json",
+      "sha256": "0ad363517018913067ae542ca98caddceee0dd8893d0ee05ac3ec3a42f318920",
+      "finished_utc": "2026-10-25T18:22:11.688137+00:00",
+      "packet_relative_path": "refinement-feasibility-result.json"
+    },
+    {
+      "file": "coverage-result.json",
+      "sha256": "4e76e73db78fb32766c5ebf34cf875be88e583e2f10824a2bd29ef99f18a4189",
+      "finished_utc": "2026-10-25T19:09:51.746348+00:00",
+      "packet_relative_path": "coverage-result.json"
+    },
+    {
+      "file": "ab-extension/pilot-result.json",
+      "sha256": "171cf8269b74dcd76650e45af9e470cf7de3897ac1a38a00abd4467f7e94c6d5",
+      "finished_utc": "2026-10-25T19:24:44.558561+00:00",
+      "packet_relative_path": "ab-extension/pilot-result.json"
+    },
+    {
+      "file": "ab-extension/refine-pilot-result.json",
+      "sha256": "fea92b99d2cf9aa21a463346573cc2b9e1f40e37d94f34d9af71cfea2128ada9",
+      "finished_utc": "2026-10-25T19:28:32.407149+00:00",
+      "packet_relative_path": "ab-extension/refine-pilot-result.json"
+    },
+    {
+      "file": "ab-extension/full-result.json",
+      "sha256": "e27e8634ed56408bd53c90e22ce0b20d1ff83585421c02baebb1a31648238e50",
+      "finished_utc": "2026-10-25T21:40:31.272129+00:00",
+      "packet_relative_path": "ab-extension/full-result.json"
+    }
+  ],
+  "M1_exclusion_reason": "only C1/L/R parser; every contributing result source hash equals return_check.cpp; no MVT input file or task accepted",
+  "diagnostic_caution": "printed endpoints and Table 5 margins are not directed-output certificates; native MPFR comparisons decide PASS"
+}

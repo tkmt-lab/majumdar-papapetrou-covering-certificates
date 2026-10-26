@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-10-25T21:44:12.260278+00:00",
+  "status": "PASS",
+  "old_manifest_files_verified_unchanged": 44,
+  "source_sha256": "1cafbf1b8dad5580a5bd9d45c49247ef8d8dcaba8b97f2e23eae342e30fc411f",
+  "binary_sha256": "d608024017b1a3c259b132d106bcf4ba8e9ef3752606b5e02a4ab0a587615fd4",
+  "ab_unique_attempts": 1776,
+  "ab_attempt_verdicts": {
+    "UNRESOLVED": 312,
+    "PASS": 1464
+  },
+  "per_run_counts": {
+    "pilot-result.json": {
+      "UNRESOLVED": 14,
+      "PASS": 34
+    },
+    "refine-pilot-result.json": {
+      "PASS": 28
+    },
+    "full-result.json": {
+      "UNRESOLVED": 298,
+      "PASS": 1402
+    }
+  },
+  "reused_provenance_verified": 76,
+  "split_parents_verified": 312,
+  "all_five_coverage_verified": true,
+  "printed_pass_diagnostics_verified": 2381,
+  "new_AB_PASS_by_kind": {
+    "C1": 1330,
+    "L": 64,
+    "R": 70
+  },
+  "no_separate_agent_review": true,
+  "no_numerical_rerun": true
+}

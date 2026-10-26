@@ -1,0 +1,21 @@
+{
+  "title": "A five-strip covering certificate for planar null geodesics in an equal-mass Majumdar-Papapetrou spacetime",
+  "version": "1.0.0",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Article, two saved interval certificates and offline finite checks for five strip coverings in a planar null-geodesic return map. The entropy bound is per return. Checks assume the original validated-flow enclosures. Lean L0; no human peer review. Code Apache-2.0, original text and generated data CC BY 4.0.",
+  "creators": [
+    {
+      "name": "Takimoto, Tatsuhiko",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Majumdar-Papapetrou",
+    "null geodesics",
+    "covering relations",
+    "topological entropy",
+    "interval arithmetic"
+  ]
+}

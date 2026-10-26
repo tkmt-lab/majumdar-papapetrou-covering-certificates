@@ -1,0 +1,340 @@
+[
+  {
+    "tag": "solver-pilot",
+    "mode": "pilot",
+    "cap_seconds": 120,
+    "started_utc": "2026-10-25T16:49:46.133833+00:00",
+    "source_sha256": "dbdf5617376973cd13c64b391d2ee6a1e92f85c43dd8d7c502d5989c2db709ab",
+    "boxes_sha256": "dd201afd84cbd5de178dbbab3c2992bf232851855111c931353d2f2227253e1f",
+    "data_sha256": "9b69a02f7df1a80e4d84eb4fffeba95621a083b5c2bbda0b760d81649b8da141",
+    "commands": [
+      [
+        "/usr/bin/clang++",
+        "-std=c++17",
+        "-O2",
+        "-ffp-contract=off",
+        "-fno-fast-math",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver.cpp",
+        "-o",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver"
+      ],
+      [
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "pilot",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver-pilot.jsonl",
+        "116.38041874999999",
+        "0.0625"
+      ]
+    ],
+    "cost_usd": 0,
+    "compile_returncode": 0,
+    "binary_sha256": "b82488b336cc85c3bc23dc372e6b2a709196a56af331a7a5eae5c0f6bc93382e",
+    "run_returncode": 0,
+    "wall_seconds": 2.076222208999752,
+    "peak_children_rss_bytes": 157073408,
+    "finished_utc": "2026-10-25T16:49:48.210406+00:00",
+    "cumulative_wall_seconds": 2.076222208999752
+  },
+  {
+    "tag": "solver-pilot2",
+    "mode": "pilot",
+    "cap_seconds": 120,
+    "started_utc": "2026-10-25T16:51:48.406508+00:00",
+    "source_sha256": "cff791a341277d53b0febb7320ba896f933402dd21a1652da2cc44de04699a17",
+    "boxes_sha256": "dd201afd84cbd5de178dbbab3c2992bf232851855111c931353d2f2227253e1f",
+    "data_sha256": "9b69a02f7df1a80e4d84eb4fffeba95621a083b5c2bbda0b760d81649b8da141",
+    "commands": [
+      [
+        "/usr/bin/clang++",
+        "-std=c++17",
+        "-O2",
+        "-ffp-contract=off",
+        "-fno-fast-math",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver.cpp",
+        "-o",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver"
+      ],
+      [
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "pilot",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver-pilot2.jsonl",
+        "116.4864849580008",
+        "0.0625"
+      ],
+      [
+        "bash",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/run_capped.sh",
+        "1900",
+        "118",
+        "--",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "pilot",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver-pilot2.jsonl",
+        "116.4864849580008",
+        "0.0625"
+      ]
+    ],
+    "cost_usd": 0,
+    "compile_returncode": 0,
+    "binary_sha256": "64700c75ce7cb5b354c09f4b07edc0603aef86a6fd2391a103032cb9e9477f6c",
+    "run_returncode": 0,
+    "wall_seconds": 4.6228659999997035,
+    "peak_children_rss_bytes": 156188672,
+    "finished_utc": "2026-10-25T16:51:53.029671+00:00",
+    "cumulative_wall_seconds": 6.699088208999456
+  },
+  {
+    "tag": "cell-sample",
+    "mode": "sample",
+    "cap_seconds": 120,
+    "started_utc": "2026-10-25T16:55:51.930020+00:00",
+    "source_sha256": "1af9125948411aa61fd9158e80990892354dcf2b5dceb9467ea8eab02a4f6338",
+    "boxes_sha256": "dd201afd84cbd5de178dbbab3c2992bf232851855111c931353d2f2227253e1f",
+    "data_sha256": "9b69a02f7df1a80e4d84eb4fffeba95621a083b5c2bbda0b760d81649b8da141",
+    "commands": [
+      [
+        "/usr/bin/clang++",
+        "-std=c++17",
+        "-O2",
+        "-ffp-contract=off",
+        "-fno-fast-math",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver.cpp",
+        "-o",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver"
+      ],
+      [
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "sample",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/cell-sample.jsonl",
+        "116.35644216700075",
+        "0.0625"
+      ],
+      [
+        "bash",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/run_capped.sh",
+        "1900",
+        "118",
+        "--",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "sample",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/cell-sample.jsonl",
+        "116.35644216700075",
+        "0.0625"
+      ]
+    ],
+    "cost_usd": 0,
+    "compile_returncode": 0,
+    "binary_sha256": "d0303119e8e2c8439315d44607a1df92755ed41786fda76587d41acd634c26c8",
+    "run_returncode": 0,
+    "wall_seconds": 7.8275703749995955,
+    "peak_children_rss_bytes": 160841728,
+    "finished_utc": "2026-10-25T16:55:59.758158+00:00",
+    "cumulative_wall_seconds": 14.526658583999051
+  },
+  {
+    "tag": "cell-sample2",
+    "mode": "sample2",
+    "cap_seconds": 120,
+    "started_utc": "2026-10-25T17:00:55.574856+00:00",
+    "source_sha256": "2ec6be356e56bdf9fdf9b7d8f81aaaf38f1b40e97deeb2fa156ec2650bd950b6",
+    "boxes_sha256": "dd201afd84cbd5de178dbbab3c2992bf232851855111c931353d2f2227253e1f",
+    "data_sha256": "9b69a02f7df1a80e4d84eb4fffeba95621a083b5c2bbda0b760d81649b8da141",
+    "commands": [
+      [
+        "/usr/bin/clang++",
+        "-std=c++17",
+        "-O2",
+        "-ffp-contract=off",
+        "-fno-fast-math",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver.cpp",
+        "-o",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver"
+      ],
+      [
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "sample2",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/cell-sample2.jsonl",
+        "116.47718629100018",
+        "0.0625"
+      ],
+      [
+        "bash",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/run_capped.sh",
+        "1900",
+        "118",
+        "--",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "sample2",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/cell-sample2.jsonl",
+        "116.47718629100018",
+        "0.0625"
+      ]
+    ],
+    "cost_usd": 0,
+    "compile_returncode": 0,
+    "binary_sha256": "6699113d40c070ee7d0a9953368ae976135bbf68eccfc47f6ce8d9090ec64244",
+    "run_returncode": 0,
+    "wall_seconds": 7.718307624999397,
+    "peak_children_rss_bytes": 168443904,
+    "finished_utc": "2026-10-25T17:01:03.293479+00:00",
+    "cumulative_wall_seconds": 22.24496620899845
+  },
+  {
+    "tag": "prepare",
+    "mode": "locate,controls,sample2",
+    "cap_seconds": 150,
+    "started_utc": "2026-10-25T17:03:58.390016+00:00",
+    "source_sha256": "56b8abe87a631b2bd54110a6f6b8f98b169c2ba6637f292f44e13b154d72a3c4",
+    "boxes_sha256": "dd201afd84cbd5de178dbbab3c2992bf232851855111c931353d2f2227253e1f",
+    "data_sha256": "9b69a02f7df1a80e4d84eb4fffeba95621a083b5c2bbda0b760d81649b8da141",
+    "commands": [
+      [
+        "/usr/bin/clang++",
+        "-std=c++17",
+        "-O2",
+        "-ffp-contract=off",
+        "-fno-fast-math",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver.cpp",
+        "-o",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver"
+      ],
+      [
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "locate",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/prepare-locate.jsonl",
+        "146.48033183299958",
+        "0.0625"
+      ],
+      [
+        "bash",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/run_capped.sh",
+        "1900",
+        "148",
+        "--",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "locate",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/prepare-locate.jsonl",
+        "146.48033183299958",
+        "0.0625"
+      ],
+      [
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "controls",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/prepare-controls.jsonl",
+        "128.03880016600033",
+        "0.0625"
+      ],
+      [
+        "bash",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/run_capped.sh",
+        "1900",
+        "130",
+        "--",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "controls",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/prepare-controls.jsonl",
+        "128.03880016600033",
+        "0.0625"
+      ],
+      [
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "sample2",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/prepare-sample2.jsonl",
+        "127.00846362500033",
+        "0.0625"
+      ],
+      [
+        "bash",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/run_capped.sh",
+        "1900",
+        "129",
+        "--",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "sample2",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/prepare-sample2.jsonl",
+        "127.00846362500033",
+        "0.0625"
+      ]
+    ],
+    "cost_usd": 0,
+    "compile_returncode": 0,
+    "binary_sha256": "16011eb0cac7babe1214989a4d7fbcb3669defdd446d42b8a730810be7f02808",
+    "part_returncodes": {
+      "locate": 0,
+      "controls": 0,
+      "sample2": 0
+    },
+    "run_returncode": 0,
+    "wall_seconds": 27.169356291999975,
+    "peak_children_rss_bytes": 168017920,
+    "finished_utc": "2026-10-25T17:04:25.559541+00:00",
+    "cumulative_wall_seconds": 49.41432250099842
+  },
+  {
+    "tag": "coverage",
+    "mode": "cover",
+    "cap_seconds": 1500,
+    "started_utc": "2026-10-25T17:13:05.752487+00:00",
+    "source_sha256": "fa2e91393fe196dd5b0d39c13e9f23261310e783c93f2f1ac93d964137368c07",
+    "boxes_sha256": "dd201afd84cbd5de178dbbab3c2992bf232851855111c931353d2f2227253e1f",
+    "data_sha256": "9b69a02f7df1a80e4d84eb4fffeba95621a083b5c2bbda0b760d81649b8da141",
+    "strips_sha256": "927d5781deddd6c8b30c4afd454aa733ca955b83d23560faf8660037e0dda4dc",
+    "commands": [
+      [
+        "/usr/bin/clang++",
+        "-std=c++17",
+        "-O2",
+        "-ffp-contract=off",
+        "-fno-fast-math",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver.cpp",
+        "-o",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver"
+      ],
+      [
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "cover",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/coverage.jsonl",
+        "1496.2705095829997",
+        "0.0625"
+      ],
+      [
+        "bash",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/run_capped.sh",
+        "1900",
+        "1498",
+        "--",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/solver",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/boxes.dat",
+        "cover",
+        "<workspace>/research/.worktrees/verify/studies/R029/hset-check/coverage.jsonl",
+        "1496.2705095829997",
+        "0.0625"
+      ]
+    ],
+    "cost_usd": 0,
+    "compile_returncode": 0,
+    "binary_sha256": "ae4577655b91592c66f395d532e0791b2009aa916ad14541f9f16e6e108543d1",
+    "part_returncodes": {
+      "cover": 0
+    },
+    "run_returncode": 0,
+    "wall_seconds": 659.284566583,
+    "peak_children_rss_bytes": 177782784,
+    "finished_utc": "2026-10-25T17:24:05.033734+00:00",
+    "cumulative_wall_seconds": 708.6988890839984
+  }
+]

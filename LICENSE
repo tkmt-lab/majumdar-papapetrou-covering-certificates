@@ -1,0 +1,14 @@
+Copyright 2026 Tatsuhiko Takimoto.
+
+Project-owned source code (*.py, *.cpp, *.h and CI configuration) is licensed
+under the Apache License 2.0; see Apache-2.0.txt.
+
+The article, original documentation, and generated numerical certificate and
+audit data are licensed under Creative Commons Attribution 4.0 International;
+see CC-BY-4.0.txt.
+
+CAPD, MPFR, GMP, compilers, Python, TeX and Poppler are external dependencies.
+Their implementations and external papers are not vendored. Their own
+licenses apply; this grant does not relicense dependencies named by #include.
+Historical build settings and project-generated outputs are included only
+as provenance. References and attribution are in SOURCES.md.

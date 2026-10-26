@@ -1,0 +1,224 @@
+{
+  "schema": "r029-paper-claims-v1",
+  "status": "LOCAL_RELEASE_CANDIDATE",
+  "title": "A five-strip covering certificate for planar null geodesics in an equal-mass Majumdar-Papapetrou spacetime",
+  "input_commit": "19386e805b5c2641002a369c464fb133fed5fdd4",
+  "scope": {
+    "model": "planar null Majumdar-Papapetrou geodesics",
+    "masses": [
+      "1",
+      "1"
+    ],
+    "centres": [
+      [
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "-1"
+      ]
+    ],
+    "p_t": "-1",
+    "H": "0",
+    "plane": "y=p_y=0",
+    "initial_graph": "(x,z,v_x,v_z)=(q,0,w,sqrt(1-w^2)), |w|<1",
+    "section": "z=0, v_z>0",
+    "return": "first strictly positive upward return before departure from int(D)",
+    "D": "r_+>=1/5, r_->=1/5, x^2+z^2<=64; all certified segments satisfy strict interior inequalities",
+    "entropy_units": "per return, natural logarithm",
+    "data": "finite decimal box coordinates are exact rationals; strip endpoints are exact rationals"
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "The exact affine charts are nonsingular and the five closed source strips are pairwise disjoint.",
+      "paper": "Section 3",
+      "basis": "exact rational geometry checks",
+      "evidence": [
+        "evidence/hset-check/boxes.json",
+        "evidence/hset-check/strips.json",
+        "evidence/hset-check/geometry-pilot.json",
+        "evidence/independent-capd/geometry-check.json",
+        "audit-result.json"
+      ]
+    },
+    {
+      "id": "C02",
+      "claim": "The first upward return exists on every closed source strip, remains in int(D), and is transverse; the return map is continuous on each closed strip.",
+      "paper": "Theorem 1; Sections 2 and 5.1",
+      "basis": "two interval validations plus smooth ODE dependence and the implicit-function theorem in prose",
+      "evidence": [
+        "evidence/hset-check/coverage.jsonl",
+        "evidence/hset-check/METHOD.md",
+        "evidence/independent-capd/return_check.cpp",
+        "evidence/independent-capd/METHOD.md",
+        "correspondence.json",
+        "evidence/independent-capd/METHOD.en.md",
+        "evidence/independent-capd/certificate-index.json",
+        "evidence/independent-capd/environment-record.json",
+        "evidence/hset-check/METHOD.en.md"
+      ]
+    },
+    {
+      "id": "C03",
+      "claim": "K_OO covers N_O, K_OA covers N_A, K_AB covers N_B, K_BO covers N_O, and K_BA covers N_A. Each also covers every listed successor strip in its target box.",
+      "paper": "Theorem 1; Lemma 2",
+      "basis": "all 15 C1/C2L/C2R conditions plus the degree-one covering homotopy in prose",
+      "evidence": [
+        "evidence/hset-check/expected-coverage-audit.json",
+        "evidence/independent-capd/ab-extension/expected-coverage-check.json",
+        "correspondence.json",
+        "audit-result.json",
+        "evidence/independent-capd/ab-extension/check_coverage.py",
+        "evidence/independent-capd/return_check.cpp",
+        "evidence/independent-capd/certificate-index.json",
+        "evidence/independent-capd/review-audit.json",
+        "evidence/independent-capd/ab-extension/proof-summary.json",
+        "evidence/independent-capd/ab-extension/accepted-proof-lines.txt"
+      ]
+    },
+    {
+      "id": "C04",
+      "claim": "The five-state edge matrix has spectral radius phi=(1+sqrt(5))/2; log(phi) lies in the closed interval [0.481211825059603,0.481211825059604].",
+      "paper": "Section 6",
+      "basis": "integer characteristic polynomial, positive eigenvector over Q(phi), and a positive-term series evaluated with rational square-root enclosures and a rational tail bound",
+      "evidence": [
+        "evidence/hset-check/check_coverage.py",
+        "evidence/hset-check/expected-coverage-audit.json",
+        "evidence/independent-capd/check_geometry.py",
+        "evidence/independent-capd/geometry-check.json"
+      ]
+    },
+    {
+      "id": "C05",
+      "claim": "There exists a compact nonempty Lambda in the union of the five strips with P(Lambda)=Lambda and h_top(P|Lambda)>=log(phi).",
+      "paper": "Theorem 1; Section 6",
+      "basis": "C01-C04, external closed-chain covering theorem, compactness and a continuous surjective itinerary map to the one-sided edge shift",
+      "evidence": [
+        "body.tex",
+        "claims.json",
+        "SOURCES.md"
+      ],
+      "external_theorem": "Zgliczynski-Gidea (2004), Theorem 9; https://doi.org/10.1016/j.jde.2004.03.013"
+    },
+    {
+      "id": "C06",
+      "claim": "Both saved-record checkers agree on all five coverings for the same exact inputs.",
+      "paper": "Section 5; CORRESPONDENCE.md",
+      "basis": "paper-stage offline audit; zero new ODE integrations",
+      "evidence": [
+        "audit-result.json",
+        "CORRESPONDENCE.md",
+        "correspondence.json",
+        "VERIFICATION-RECORD.md",
+        "evidence/hset-check/check_coverage.py",
+        "evidence/independent-capd/ab-extension/check_coverage.py",
+        "evidence/independent-capd/audit_review_fixes.py",
+        "evidence/independent-capd/review-audit.json"
+      ]
+    }
+  ],
+  "nonclaims": [
+    "first rigorous proof of chaos in the spacetime or general qualitative novelty",
+    "an exhaustive priority claim, particularly against full-text-unread Pantig 2026",
+    "other parameter values or a neighbourhood in parameter space",
+    "hyperbolicity, a Markov partition, conjugacy or unique orbit for each itinerary",
+    "C1 from each entire original parent box to multiple incompatible targets",
+    "a bound per unit physical or affine time",
+    "new physical phenomena or the full black-hole shadow",
+    "formal verification in Lean of the ODE, interval software or topological deduction",
+    "independent selection of boxes/strips or completely blind original verification",
+    "human peer review, author approval or external publication"
+  ],
+  "independence": {
+    "implementation_diversity": true,
+    "shared_frozen_inputs": true,
+    "independent_selection": false,
+    "original_exposure_disclosed_in": "VERIFICATION-RECORD.md",
+    "separate_agent_review_this_task": false
+  },
+  "formalization": {
+    "level": "L0",
+    "state": "L0; no Lean-verified theorem or interface",
+    "reason": "Executable interval certificates and an external covering theorem currently have no Lean-verified interface."
+  },
+  "literature_limits": {
+    "Pantig_2026_full_text_read": false,
+    "qualitative_chaos_context": "Appendix A is our application of Bolotin-Kozlov Theorem 2.1 to the optical geodesic flow on a compact invariant set. That theorem does not specify the five strips or the numerical entropy bound per return.",
+    "details": "SOURCES.md"
+  },
+  "reproducibility": {
+    "saved_record_audit": "REPRODUCE.md",
+    "audit_status": "PASS_SAVED_CERTIFICATES_AND_INPUT_ALIGNMENT",
+    "new_ODE_integrations_this_task": 0,
+    "full_solver_rerun_this_task": false,
+    "input_hashes": "evidence-inputs.json",
+    "packet_hashes": "MANIFEST.sha256",
+    "CAPD_environment": "evidence/independent-capd/environment-record.json",
+    "CAPD_certificate_index": "evidence/independent-capd/certificate-index.json",
+    "review_saved_record_audit": "evidence/independent-capd/review-audit.json"
+  },
+  "verification_history": "VERIFICATION-RECORD.md",
+  "certificate_documentation": [
+    {
+      "path": "evidence/independent-capd/PLAN.md",
+      "role": "original independent implementation plan and historical progress"
+    },
+    {
+      "path": "evidence/independent-capd/input-manifest.json",
+      "role": "original frozen claim/specification/excerpt hashes"
+    },
+    {
+      "path": "evidence/independent-capd/CLAIMS.json",
+      "role": "original supplied claim, not a replacement for final audit"
+    },
+    {
+      "path": "evidence/independent-capd/SPEC.input.md",
+      "role": "original frozen model specification"
+    },
+    {
+      "path": "evidence/independent-capd/DESIGN.4.1.1-4.1.2.input.md",
+      "role": "original permitted design excerpt, diagnostics not certificates"
+    },
+    {
+      "path": "evidence/independent-capd/METHOD.en.md",
+      "role": "English method, M1 exclusion, coverage algorithm, margin interpretation"
+    },
+    {
+      "path": "evidence/hset-check/inputs/SPEC.md",
+      "role": "binary64 model specification"
+    },
+    {
+      "path": "evidence/hset-check/READ-LOG.md",
+      "role": "binary64 input exposure record"
+    },
+    {
+      "path": "evidence/hset-check/METHOD.en.md",
+      "role": "English binary64 certificate method"
+    },
+    {
+      "path": "evidence/README.en.md",
+      "role": "expected versus generated audit filename guide"
+    }
+  ],
+  "paper_version": "1.0.0",
+  "revision_input_commit": "8f61237a926900d2272f37e8c8e60749c0b802a0",
+  "review_revision": {
+    "details": "VERIFICATION-RECORD.md",
+    "new_ODE_integrations": 0,
+    "unresolved_before_submission": [
+      "Full-text comparison with Pantig 2026",
+      "Public deposit with stable identifier"
+    ]
+  },
+  "availability": {
+    "status": "LOCAL_RELEASE_CANDIDATE",
+    "version": "1.0.0",
+    "public_archive": null,
+    "manifest": "MANIFEST.sha256",
+    "input_provenance": "provenance.json"
+  }
+}
