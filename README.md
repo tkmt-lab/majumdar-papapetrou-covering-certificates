@@ -7,10 +7,9 @@ invariant set whose return dynamics has topological entropy at least
 logarithms per return, not entropy per unit physical time.
 
 Read the [article](paper.pdf), its [TeX source](paper.tex), and the precise
-[claims](claims.json). Version **1.0.0** is a local release candidate prepared
-on 26 October 2026. A public deposit and DOI have not yet been assigned.
-The proposed repository name is **`majumdar-papapetrou-covering-certificates`**. Publication
-metadata will be completed when a release is deposited.
+[claims](claims.json). Version **1.0.0** was released on 1 November 2026
+(version DOI [10.5281/zenodo.23850841](https://doi.org/10.5281/zenodo.23850841);
+all versions [10.5281/zenodo.23850840](https://doi.org/10.5281/zenodo.23850840)).
 
 ## Check the saved evidence
 

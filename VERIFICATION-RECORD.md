@@ -82,6 +82,10 @@ no public archive URL or DOI yet. The publication coordinator must assign
 those after release and update README/citation metadata. The planned date
 is 31 October 2026; preparation does not assert publication on that date.
 
+Update, 1 November 2026: version 1.0.0 was released from commit
+`5849fdd83b801cd65659a88ad70805c4ec54bd76` with version DOI 10.5281/zenodo.23850841
+(all versions 10.5281/zenodo.23850840). The evidence and checks are unchanged.
+
 Machine-local paths and internal routing identifiers were replaced in
 exported metadata, with before/after SHA-256 values in provenance.json.
 Three contributing CAPD result files change only their `authorization`
